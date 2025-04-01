@@ -15,7 +15,6 @@ body {
     text-align: center;
     width: 320px;
 }
-
 .display {
     background-color: rgba#4d4d4d;
     color: #fff;
@@ -26,6 +25,8 @@ body {
     margin-bottom: 20px;
     min-height: 50px;
     text-align: right;
+    height: 50px;
+    width: 320px ;
 }
 
 .buttons {
@@ -59,4 +60,16 @@ body {
 .wide {
     ruby-span: 2;
     border-radius: 50px;
+}
+
+.laranja:hover {
+    background-color: rgb(196, 128, 4);
+}
+
+.cinzaclaro:hover {
+    background-color: rgb(165, 165, 165);
+}
+
+.cinzaescuro:hover {
+    background-color: #424242;
 }
